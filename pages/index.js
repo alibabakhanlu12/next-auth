@@ -14,7 +14,7 @@ const Home = () => {
 		push(data.url)
 	}
 
-	const handleSignIn = () => push(`/auth/signin?callbackUrl=${asPath}`)
+	const handleSignIn = () => push(`/auth/signin?callbackurl=${asPath}`)
 
 	return (
 		<Grid placeItems='center' gridRowGap='1rem'>
